@@ -1,1 +1,42 @@
-# Create your views here.
+#encoding:utf-8
+from django.shortcuts import render_to_response
+from django.http import HttpResponse, HttpResponseRedirect
+from django.template import RequestContext #se agrega para poder utilizar la ruta de los archivos estatic se debe poner en todas las funciones
+
+
+
+from django.contrib.auth import login, authenticate, logout
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import get_object_or_404
+
+from django.contrib.auth.models import Group
+from django.contrib.auth.models import User
+
+
+from forms import SignupForm
+
+
+def nuevoUserView(request):
+	mensaje = ""
+	if request.method == 'POST':
+		formulario = NuevoUser(request.POST)
+		if formulario.is_valid():
+			username = formulario.cleaned_data['username']
+			password = formulario.cleaned_data['password']
+			email = formulario.cleaned_data['email']
+			new_user = User.objects.create_user(email, email ,password)
+			grupo = get_object_or_404(Group, name = 'invitado')
+			new_user.is_active=True
+			new_user.is_staff=False
+			new_user.is_superuser=False
+			new_user.first_name=formulario.cleaned_data['first_name']
+			new_user.last_name=formulario.cleaned_data['last_name']
+			new_user.save()
+			new_user.groups.add(grupo)
+			return HttpResponseRedirect("/")
+	else:
+		mensaje ="Los datos no son validos"
+		formulario =NuevoUser()
+		formulario_loguin= LoginUser()
+		return render_to_response('usuarios/registro.html',{'formulario': formulario, \
+			'formulario_loguin':formulario_loguin},context_instance=RequestContext(request))
