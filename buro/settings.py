@@ -1,3 +1,4 @@
+# -*- coding: utf-8 *-*
 # Django settings for buro project.
 
 DEBUG = True
@@ -99,7 +100,6 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'userena.middleware.UserenaLocaleMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -122,10 +122,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'south',
-    'userena',
-    'guardian',
-    'easy_thumbnails',
-    'accounts',
     'deudores',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
@@ -160,22 +156,3 @@ LOGGING = {
     }
 }
 
-AUTHENTICATION_BACKENDS = (
-    'userena.backends.UserenaAuthenticationBackend',
-    'guardian.backends.ObjectPermissionBackend',
-    'django.contrib.auth.backends.ModelBackend',
-)
-
-ANONYMOUS_USER_ID = -1
-
-EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
-
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'enrique.wx@gmail.com'
-EMAIL_HOST_PASSWORD = 'blackcode_12'
-
-LOGIN_REDIRECT_URL = '/accounts/%(username)s/'
-LOGIN_URL = '/accounts/signin/'
-LOGOUT_URL = '/accounts/signout/'
