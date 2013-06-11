@@ -1,11 +1,14 @@
-
+{% extends 'base/base.html' %}
+{% block contenido %} 
 <div class="row-fluid">
 <div class="span9">
 <h2 class="text-info">Iniciar sesion Empresa</h2>
-<p>Escriba los datos de login de la empresa, disfruta la pagina para administrar tus promociones.</p>
+<p>Escriba los datos de login de la empresa, disfruta la página para administrar tus promociones.</p>
 <form id='formulario' method='post' enctype='multipart/form-data' action=''>{% csrf_token %}
 {{formulario.as_p}}
 <p><button class="btn btn-large btn-success">Aceptar<i class="icon-plus"></i></button></p>
 </form>
 </div>
 </div>
+
+{% endblock %}

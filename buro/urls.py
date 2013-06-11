@@ -8,7 +8,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
 	url(r'^admin/', include(admin.site.urls)),
-	url(r'^$', 'usuarios.views.nuevoUserView'), # agregar nueva empresa
+	url(r'^registro/$', 'usuarios.views.nuevoUserView'), # agregar nuevo usuario
+	url(r'^$', 'deudores.views.index'),
 )
 
 

@@ -15,7 +15,7 @@ class Deudor (models.Model):
 	fecha_nacimiento = models.DateField(blank=True, null=True, verbose_name=_('Fecha de nacimiento'))
 	descripcion = models.TextField(verbose_name=_('Descripcion'))
 	institucion = models.ForeignKey(User)
-	fecha_ingreso = models.DateField(blank=True, null=True, verbose_name=_('Fecha de nacimiento'))
+	fecha_ingreso = models.DateField(auto_now_add=True, verbose_name=_('Fecha de ingreso'))
 	estado = models.CharField(max_length=1, blank=True, verbose_name=_(u'Estado'))
 	tipo = models.CharField(max_length=12, blank=True, verbose_name=_(u'Alumno o profesor') )
 	CURP = models.CharField(max_length=12, blank=True, verbose_name=_(u'CURP') )

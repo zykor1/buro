@@ -17,25 +17,21 @@ from forms import SignupForm
 
 
 def nuevoUserView(request):
-	mensaje = ""
 	if request.method == 'POST':
 		formulario = SignupForm(request.POST)
 		if formulario.is_valid():
 			username = formulario.cleaned_data['username']
 			password = formulario.cleaned_data['password']
 			email = formulario.cleaned_data['email']
-			new_user = User.objects.create_user(email, email ,password)
-			grupo = get_object_or_404(Group, name = 'instituto')
+			new_user = User.objects.create_user(username, email ,password)
 			new_user.is_active=True
 			new_user.is_staff=False
 			new_user.is_superuser=False
 			new_user.first_name=formulario.cleaned_data['first_name']
-			new_user.last_name=formulario.cleaned_data['last_name']
 			new_user.save()
-			new_user.groups.add(grupo)
-			return HttpResponseRedirect("/")
+			return HttpResponseRedirect('/')
 	else:
 		mensaje ="Los datos no son validos"
 		formulario =SignupForm()
-		return render_to_response('usuarios/registro.html',{'formulario': formulario }, \
+	return render_to_response('usuarios/registro.html',{'formulario': formulario }, \
 			context_instance=RequestContext(request))

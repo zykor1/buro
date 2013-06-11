@@ -15,7 +15,7 @@ class UserField(forms.CharField):
             return value
 
 class SignupForm(forms.Form):
-    first_name = forms.CharField(max_length=30, label=_(u"Institucion"))
+    first_name = forms.CharField(max_length=30, label=_(u"Institución"))
     username = UserField(max_length=30, label=_(u"Nombre de usuario"))
     password = forms.CharField(widget=forms.PasswordInput(), label=_(u"Contraseña"))
     password2 = forms.CharField(widget=forms.PasswordInput(), label=_(u"Repita contraseña"))
@@ -28,6 +28,6 @@ class SignupForm(forms.Form):
         return self.data['password']
     
     def clean(self,*args, **kwargs):
-        self.clean_email()
+        self.cleaned_data.get('email')
         self.clean_password()
         return super(SignupForm, self).clean(*args, **kwargs)
