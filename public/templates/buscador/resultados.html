@@ -1,8 +1,11 @@
 	{% extends 'base/base.html' %}
 	{% block top %} 
 	<h1>Web Buro</h1>
+	<a href="/instituto"> Mis alumnos y profesores</a><br>
 	<a href="/nuevo"> Agregar alumno o profesores</a><br>
 	<a href="/buscador"> Buscador de alumnos y profesores</a><br>
+<p>{{ mensaje }}</p>
+
 {% for deudor in deudores %}
 <p>
 	{{ deudor.nombre }}
@@ -11,11 +14,6 @@
 	{{ deudor.curp }}
 	{{ deudor.institucion.first_name }}
 	{{ deudor.fecha_ingreso }}
-	{{ deudor.CURP }}
-	<a href="/editar/{{ deudor.id }}"> editar</a>
-	<a href="/eliminar/{{ deudor.id }}"> eliminar</a>
 </p>
-<br>
 {% endfor %}
-
 {% endblock %}

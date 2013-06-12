@@ -2,7 +2,7 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext #se agrega para poder utilizar la ruta de los archivos estatic se debe poner en todas las funciones
-
+from django.shortcuts import redirect
 
 
 from django.contrib.auth import login, authenticate, logout
@@ -35,3 +35,31 @@ def nuevoUserView(request):
 		formulario =SignupForm()
 	return render_to_response('usuarios/registro.html',{'formulario': formulario }, \
 			context_instance=RequestContext(request))
+
+
+def login(request):
+	print 'hola'
+	if request.user.is_authenticated():
+		print 'hola'
+		return redirect('/')
+	else:
+		username = request.POST['username']
+		password = request.POST['password']
+		print 'hola'
+		user = authenticate(username=username, password=password)
+		if user is not None:
+			if user.is_active:
+				login(request, user)
+				return redirect('/')
+			else:
+				return render_to_response('usuarios/login.html', \
+					context_instance=RequestContext(request))
+		else:
+			return render_to_response('usuarios/login.html', \
+				context_instance=RequestContext(request))
+
+
+@login_required(login_url='/login')
+def cerrarSesion(request):
+    logout(request)
+    return HttpResponseRedirect('/')
