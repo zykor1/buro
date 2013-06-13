@@ -3,6 +3,7 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
+from django.db.models import Q
 from forms import DeudorForm, BuscarCurpForm, BuscarNombreForm
 from models import Deudor
 
@@ -78,12 +79,20 @@ def buscarDeudorNombre(request):
     if request.method == 'POST':
         formulario = BuscarNombreForm(request.POST)
         if formulario.is_valid():
-            tipo1 = formulario.cleaned_data['tipo']
+            tipo0 = formulario.cleaned_data['tipo']
+            tipo1 = tipo0
             tipo1 = dict(formulario.fields['tipo'].choices)[tipo1]
             nombre1 = formulario.cleaned_data['nombre']
             apepat1 = formulario.cleaned_data['apepat']
             apemat1 = formulario.cleaned_data['apemat']
-            deudor = Deudor.objects.filter(nombre=nombre1, apepat=apepat1, apemat=apemat1, tipo=tipo1)
+            fecha = formulario.cleaned_data['fecha_nacimiento']
+            deudor = Deudor.objects.filter(\
+                Q(Q(nombre=nombre1) & Q(tipo=tipo0) & Q(apepat=apepat1) & Q(apemat=apemat1) & Q(fecha_nacimiento=fecha))\
+                | Q(Q(nombre=nombre1) & Q(tipo=tipo0) & Q(fecha_nacimiento=fecha) & Q(apepat=apepat1)) \
+                | Q(Q(nombre=nombre1) & Q(tipo=tipo0) & Q(fecha_nacimiento=fecha) & Q(apemat=apemat1)) \
+                | Q(Q(nombre=nombre1) & Q(tipo=tipo0) & Q(apepat=apepat1)) \
+                | Q(Q(nombre=nombre1) & Q(tipo=tipo0) & Q(apemat=apemat1)) \
+                )
             if deudor.count() > 0 :
                 return render_to_response('buscador/resultados.html', \
                     {'deudores':deudor }, context_instance=RequestContext(request))

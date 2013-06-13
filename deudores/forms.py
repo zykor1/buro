@@ -31,6 +31,7 @@ class BuscarCurpForm(forms.Form):
 class BuscarNombreForm(ModelForm):
 	class Meta:
 		model = Deudor
+		fields = ('tipo', 'nombre', 'apepat', 'apemat', 'fecha_nacimiento')
 		exclude = ('fecha_ingreso', 'institucion', 'CURP', 'descripcion')
 
 	def clean_nombre(self):
