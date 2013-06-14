@@ -1,0 +1,50 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+#services-top-desktop{
+	background: #fff url(../img/fondo.jpg) fixed no-repeat center;
+	background-size: cover;
+}
+
+#services-top-mobile {
+	background: #fff url(../img/fondo.jpg) no-repeat center;
+	background-size: cover;
+}
+
+h1#titulo{
+	font-size: 90px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 15px;
+	letter-spacing: -2px;
+}
+
+p#subtitulo{
+	font-size: 26px;
+	color: #fff;
+	font-weight: 100;
+	text-align: center;
+	line-height: 1;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+

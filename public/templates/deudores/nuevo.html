@@ -3,12 +3,54 @@
 <div class="row-fluid">
 <div class="span9">
 <h2 class="text-info">Agregar nuevo alumno o profesor</h2>
-<p>Introduce los datos del alumno o profesor.</p>
-<form id='formulario' method='post' enctype='multipart/form-data' action=''>{% csrf_token %}
-{{formulario.as_p}}
-<p><button class="btn btn-large btn-success">Aceptar<i class="icon-plus"></i></button></p>
+
+<form id='formulario' method="post">{% csrf_token %}
+    {{ formulario.non_field_errors }}
+    <div class="fieldWrapper">
+        {{ formulario.CURP.errors }}
+        <label for="id_CURP">Curp:</label>
+        {{ formulario.CURP }}
+    </div>
+
+    <div class="fieldWrapper">
+        {{ formulario.tipo.errors }}
+        <label for="id_tipo">Alumno o profesor:</label>
+        {{ formulario.tipo }}
+    </div>
+    <div class="fieldWrapper">
+        {{ formulario.nombre.errors }}
+        <label for="id_nombre">Nombre:</label>
+        {{ formulario.nombre }}
+    </div>
+    <div class="fieldWrapper">
+        {{ formulario.apepat.errors }}
+        <label for="id_apepat">Apellido paterno:</label>
+        {{ formulario.apepat }}
+    </div>
+    <div class="fieldWrapper">
+        {{ formulario.apemat.errors }}
+        <label for="id_apemat">Apellido materno:</label>
+        {{ formulario.apemat }}
+    </div>
+    <div class="fieldWrapper">
+        {{ formulario.fecha_nacimiento.errors }}
+        <label for="id_fecha_nacimiento">Fecha de nacimiento:</label>
+        {{ formulario.fecha_nacimiento }}
+    </div>
+
+    <div class="fieldWrapper">
+        {{ formulario.descripcion.errors }}
+        <label for="id_descripcion">Descripcion:</label>
+        {{ formulario.descripcion }}
+    </div>
+
+
+    <p><input type="submit" value="Send message" /></p>
 </form>
+
 </div>
 </div>
 
 {% endblock %}
+
+
