@@ -40,48 +40,13 @@
 				<h1 class="header" id="titulo">B:SM</h1>
 				<p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
 			</section>      
-            <section id="intro">
-            <div class="container">
-                <div class="row">
-                    <div class="span8 offset2 margin25">
-                        <div id="carousel_fade_intro" class="carousel slide carousel-fade">
-                            <div class="carousel-inner">
-                                <div class="active item">
-                                    <h2>Marketing Simple, Eficaz y Asequible</h2>
-                                </div>
-                                <div class="inactive item">
-                                    <h2>Genera promociones a clientes locales</h2>
-                                </div>
-                                <div class="inactive item">
-                                    <h2>Incrementa tu presencia en internet</h2>
-                                </div>
-                                <div class="inactive item">
-                                    <h2>Resultados medibles</h2>
-                                </div>
-                                <div class="inactive item">
-                                    <h2>Planes personalizados</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="fadeInUp delay animated hidden-phone" id="more">
-                <a href="#services-top" class="m-btn a-btn blue big icn-only"><i class="icon-sort-down icon-3x pull-left"></i></a>
-            </div>
-        </section>
-
 
 
 
         <div class="container">
+            {% block contenido %}{% endblock %}
 
 
-            <!-- Example row of columns -->
-            <div class="row">
-            	{% block contenido %}
-            	{% endblock  %}
-            </div>
 
             <hr>
 

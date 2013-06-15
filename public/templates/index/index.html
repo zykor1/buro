@@ -1,7 +1,23 @@
-	{% extends 'base/base.html' %}
-	{% block top %} 
-	<h1>Web Buro</h1>
-	<a href="/registro"> registrarse</a><br>
-	<a href="/instituto"> instituto</a><br>
-	<a href="/login"> login</a><br>
-	{% endblock %}
+{% extends 'base/base.html' %}
+{% block contenido %} 
+
+ <div class="row">
+                <div>
+                    <div class="span5"><img src='{{STATIC_URL}}img/fundacion.jpg'  alt="promocion" /></div>
+                    <div class="span5">
+                    <p align="justify" class="lead">En apoyo a los abusos que sufren las escuelas particulares del país por padres de familia que abusan del sistema escolarizado para no pagar colegiaturas y retirar sus papeles de las instituciones particulares las cuales no cuentan con ningún tipo de protección contra esto. Por esta  razón la fundación María Guadalupe crea este buro de solvencia moral estudiantil, para evitar problemas y que sufran un detrimento dichas instituciones particulares. </p>
+                    </div>
+                </div>
+</div>
+ <div class="row">
+                <div class="span4">
+                    <h2>Heading</h2>
+                    <p align="justify"> Si algún alumno presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno el sistema les informe de dicho adeudo, por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o no, este tipo de información no afecta al alumno puesto que solo es de carácter informativo y servira de consulta netamente a las instituciones. </p>
+               </div>
+                <div class="span4">
+                    <h2>Heading</h2>
+                    <p align="justify">Si algún estudiante no puede cubrir el pago de una escuela particular se le recomendaran escuelas publicas cerca de dicha institución, puesto que en algunos casos no conformes con no pagar, algunos alumnos por recuperar sus papeles presentan las famosas “quejas” ante la SEP que más allá del detrimento económico que sufren también crean cierto grado de difamación, el cual se podrá prevenir con el uso de este sistema interestatal nacional.</p>
+                </div>
+</div>
+
+{% endblock %}

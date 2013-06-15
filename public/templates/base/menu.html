@@ -10,13 +10,15 @@
                     <a class="brand" href="#">Buro de Solvencia Moral</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Inicio</a></li>
-                            <li><a href="#about">Acerca de</a></li>
-                            <li><a href="#contact">Contacto</a></li>
                         {% if user.is_authenticated %}
+                            <li><a href="/instituto">Mis alumnos y profesores</a></li>
+                            <li><a href="/buscador">Buscador de alumnos y profesores</a></li>
                             <li><a href="/logout">{{ user.username }} (Cerrar sesión)</a></li>
                         </ul>
 						{% else %}
+                            <li class="active"><a href="/">Inicio</a></li>
+                            <li><a href="#about">Acerca de</a></li>
+                            <li><a href="#contact">Contacto</a></li>
                         <form class="navbar-form pull-right" method="post" action="/login/">{% csrf_token %}
                         	{{ formulario.non_field_errors }}
 							{{ formulario.username.errors }}
