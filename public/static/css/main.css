@@ -33,6 +33,22 @@
 }
 
 
+
+#services-f-desktop{
+	background: #fff url(../img/fundacionesCover.jpg) fixed no-repeat center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom:  4em;
+}
+
+#services-f-mobile {
+	background: #fff url(../img/fundacionesCover.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
+
+
 h1#titulo{
 	font-size: 90px;
 	color: #fff;
