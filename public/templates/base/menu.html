@@ -1,5 +1,5 @@
 {% block menu %} 
-<div class="navbar  navbar-fixed-top">
+<div class="navbar  navbar-fixed-top">  
             <div class="navbar-inner">
                 <div class="container">
                     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -16,8 +16,9 @@
                             <li><a href="/logout">{{ user.username }} (Cerrar sesión)</a></li>
                         </ul>
 						{% else %}
-                            <li class="active"><a href="/">Inicio</a></li>
-                            <li><a href="#about">Acerca de</a></li>
+                            <li class="active"><a href="#Inicio">Inicio</a></li>
+                            <li><a href="#Como-funciona">Como funciona</a></li>
+                            <li><a href="#fundaciones">Fundaciones</a></li>
                             <li><a href="#contact">Contacto</a></li>
                         <form class="navbar-form pull-right" method="post" action="/login/">{% csrf_token %}
                         	{{ formulario.non_field_errors }}

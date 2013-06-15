@@ -10,12 +10,28 @@
 #services-top-desktop{
 	background: #fff url(../img/fondo.jpg) fixed no-repeat center;
 	background-size: cover;
+		padding-top: 4em;
+	padding-bottom:  4em;
 }
 
 #services-top-mobile {
 	background: #fff url(../img/fondo.jpg) no-repeat center;
 	background-size: cover;
 }
+
+#services-cf-desktop{
+	background: #fff url(../img/fondocf.jpg) fixed no-repeat center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom:  4em;
+}
+
+#services-cf-mobile {
+	background: #fff url(../img/fondocf.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
 
 h1#titulo{
 	font-size: 90px;
@@ -35,6 +51,23 @@ p#subtitulo{
 	text-align: center;
 	line-height: 1;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#fundacion-mg{
+	margin-top: 5em;
+	margin-bottom: 7em;
+}
+
+div#full{
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+
+img#fundacion{
+	width: 50%;
+	float: left;
+	padding-top: 2em;
 }
 
 

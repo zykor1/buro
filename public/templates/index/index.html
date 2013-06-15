@@ -1,23 +1,63 @@
 {% extends 'base/base.html' %}
 {% block contenido %} 
+<div data-spy="scroll" data-target=".navbar" data-offset="64"> 
 
- <div class="row">
-                <div>
-                    <div class="span5"><img src='{{STATIC_URL}}img/fundacion.jpg'  alt="promocion" /></div>
-                    <div class="span5">
-                    <p align="justify" class="lead">En apoyo a los abusos que sufren las escuelas particulares del país por padres de familia que abusan del sistema escolarizado para no pagar colegiaturas y retirar sus papeles de las instituciones particulares las cuales no cuentan con ningún tipo de protección contra esto. Por esta  razón la fundación María Guadalupe crea este buro de solvencia moral estudiantil, para evitar problemas y que sufran un detrimento dichas instituciones particulares. </p>
-                    </div>
-                </div>
-</div>
- <div class="row">
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p align="justify"> Si algún alumno presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno el sistema les informe de dicho adeudo, por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o no, este tipo de información no afecta al alumno puesto que solo es de carácter informativo y servira de consulta netamente a las instituciones. </p>
-               </div>
-                <div class="span4">
+<section id="Inicio">
+    <section id="services-top-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+        <br>
+        <h1 class="header" id="titulo">B:SM</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>
+
+    <section id="services-top-mobile" class="hidden-desktop">
+        <br>
+        <h1 class="header" id="titulo">B:SM</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section> 
+
+
+    <div class="row" id="fundacion-mg">
+            <div class="container text-center">
+                <img  id="fundacion" src='{{STATIC_URL}}img/fundacion.jpg'  alt="Fundación María Guadalupe" />
+                <h2 align="justify">En apoyo a los abusos que sufren las escuelas particulares del país por padres de familia que abusan del sistema escolarizado para no pagar colegiaturas y retirar sus papeles de las instituciones particulares las cuales no cuentan con ningún tipo de protección contra esto. Por esta  razón la fundación María Guadalupe crea este buro de solvencia moral estudiantil, para evitar problemas y que sufran un detrimento dichas instituciones particulares. </h2>
+            </div>
+    </div>
+</section> 
+<section id="Como-funciona">
+    <section id="services-cf-desktop" class="visible-desktop" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+                    <br>
+                    <h1 class="header" id="titulo">Como funciona</h1>
+                    <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+                </section>
+                <section id="services-cf-mobile" class="hidden-desktop">
+                    <br>
+                    <h1 class="header" id="titulo">B:SM</h1>
+                    <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+                </section>  
+
+
+     <div class="row"  id="full">
+                    <div class="container text-center">
+                        <div class="span4 offset1">
+                            <img   src='{{STATIC_URL}}img/compartir.jpg'  alt="Compartir" />
+                            <p align="justify" class="lead well">Si algún alumno o profesor presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno o profesor el sistema les informe de dicho adeudo.</p>
+                        </div>
+
+                        <div class="span4 offset2">
+                            <img   src='{{STATIC_URL}}img/consulta.jpg'  alt="Consulta" />
+                            <p align="justify" class="lead well">Por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o profesor, este tipo de información no afecta al alumno o profesor puesto que solo es de carácter informativo y servirá de consulta netamente a las instituciones.</p>
+                        </div>
+                   </div>                   
+    </div>
+</section>
+
+<div class="row">              
+                <div class="container text-center">
                     <h2>Heading</h2>
                     <p align="justify">Si algún estudiante no puede cubrir el pago de una escuela particular se le recomendaran escuelas publicas cerca de dicha institución, puesto que en algunos casos no conformes con no pagar, algunos alumnos por recuperar sus papeles presentan las famosas “quejas” ante la SEP que más allá del detrimento económico que sufren también crean cierto grado de difamación, el cual se podrá prevenir con el uso de este sistema interestatal nacional.</p>
                 </div>
 </div>
 
+
+</div>
 {% endblock %}
