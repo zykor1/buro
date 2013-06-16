@@ -47,6 +47,19 @@
 
 }
 
+#services-c-desktop{
+	background: #fff url(../img/contactoCover.jpg) fixed no-repeat center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom:  4em;
+}
+
+#services-c-mobile {
+	background: #fff url(../img/contactoCover.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
 
 
 h1#titulo{

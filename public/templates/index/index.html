@@ -1,7 +1,5 @@
 {% extends 'base/base.html' %}
 {% block contenido %} 
-<div data-spy="scroll" data-target=".navbar" data-offset="64"> 
-
 <section id="Inicio">
     <section id="services-top-desktop" class="visible-desktop">
         <br>
@@ -39,13 +37,13 @@
      <div class="row"  id="full">
                     <div class="container text-center">
                         <div class="span4 offset1">
-                            <img   src='{{STATIC_URL}}img/compartir.jpg'  alt="Compartir" />
-                            <p align="justify" class="lead well">Si algún alumno o profesor presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno o profesor el sistema les informe de dicho adeudo.</p>
+                            <img   src='{{STATIC_URL}}img/compartir.jpg' class="img-polaroid"  alt="Compartir" />
+                            <p align="justify" class="lead">Si algún alumno o profesor presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno o profesor el sistema les informe de dicho adeudo.</p>
                         </div>
 
                         <div class="span4 offset2">
-                            <img   src='{{STATIC_URL}}img/consulta.jpg'  alt="Consulta" />
-                            <p align="justify" class="lead well">Por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o profesor, este tipo de información no afecta al alumno o profesor puesto que solo es de carácter informativo y servirá de consulta netamente a las instituciones.</p>
+                            <img   src='{{STATIC_URL}}img/consulta.jpg' class="img-polaroid"  alt="Consulta" />
+                            <p align="justify" class="lead">Por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o profesor, este tipo de información no afecta al alumno o profesor puesto que solo es de carácter informativo y servirá de consulta netamente a las instituciones.</p>
                         </div>
                    </div>                   
     </div>
@@ -65,22 +63,48 @@
     </section>  
 
 
-     <div class="row"  id="full">
-                    <div class="container text-center">
-                        <div class="span4 offset1">
-                            <img   src='{{STATIC_URL}}img/compartir.jpg'  alt="Compartir" />
-                            <p align="justify" class="lead well">Si algún alumno o profesor presenta algún adeudo y no lo cubriera, la institución podrá subir dicha información para que otras instituciones al tratar de inscribirse dicho alumno o profesor el sistema les informe de dicho adeudo.</p>
+     <div class="row-fluid"  id="full">
+                        <div class="span4">
+                            <img   src='{{STATIC_URL}}img/justicia.jpg'  alt="Justicia" />
                         </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="span6">
+                            <blockquote align="justify" class="lead pull-left">Esta fundación tiene como objetivo apoyar a las personas que se encuentran en la cárcel de manera injusta, tomando su asunto y luchando hasta que salgan libres, siempre y cuando la razón por la que estén sea injusta, no cobrando absolutamente nada y llevando su asunto de una manera profesional, los directores de la fundación así como los fundadores son el Lic. Elfego Rodríguez Pérez y el Lic. Rodrigo rodríguez Pérez.</blockquote >
+                            <div class="row span2">
+                               <a href="https://www.facebook.com/FundacionParaLaLeyYLaJusticia" target="_blank"><img   src='{{STATIC_URL}}img/facebook.png'  alt="Facebook" /></a> 
+                            </div>
 
-                        <div class="span4 offset2">
-                            <img   src='{{STATIC_URL}}img/consulta.jpg'  alt="Consulta" />
-                            <p align="justify" class="lead well">Por lo que la institución ya podrá tomar la decisión de aceptar a dicho alumno o profesor, este tipo de información no afecta al alumno o profesor puesto que solo es de carácter informativo y servirá de consulta netamente a las instituciones.</p>
-                        </div>
-                   </div>                   
+                        </div>                 
     </div>
 </section>
 
 
+<section id="Contacto">
+    <section id="services-c-desktop" class="visible-desktop">
+        <br>
+        <h1 class="header" id="titulo">Contacto</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>
+    <section id="services-c-mobile" class="hidden-desktop">
+        <br>
+        <h1 class="header" id="titulo">Contacto</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>  
 
-</div>
+
+     <div class="row"  id="full">
+                    <div class="container text-center">
+                        <h2>Contactanos en:</h2>
+                        <br>
+                        <div class="span3 offset2"><a href="#"><img   src='{{STATIC_URL}}img/facebook.png'  alt="Facebook" /></a> </div>
+                        <div class="span3 offset2"><a href="#"><img   src='{{STATIC_URL}}img/twitter.jpg'  alt="Facebook" /></a> </div>
+                   </div>      
+
+
+    </div>
+</section>
+
+
 {% endblock %}
