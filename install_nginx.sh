@@ -2,7 +2,7 @@
 
 # Set environment variables
 APPNAME=nginx_buro       # Name of the uWSGI Custom Application
-APPPORT=30521              # Assigned port for the uWSGI Custom Application
+APPPORT=22800              # Assigned port for the uWSGI Custom Application
 PYTHON=python2.7           # Django python version
 DJANGOAPP=posicionlocal           # Django application name
 DJANGOPROJECT=buro    # Django project name
