@@ -11,16 +11,15 @@ class Migration(SchemaMigration):
         # Adding model 'Deudor'
         db.create_table(u'deudores_deudor', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('nombre', self.gf('django.db.models.fields.CharField')(max_length=45)),
-            ('apepat', self.gf('django.db.models.fields.CharField')(max_length=45)),
-            ('apemat', self.gf('django.db.models.fields.CharField')(max_length=45)),
+            ('nombre', self.gf('django.db.models.fields.CharField')(max_length=45, blank=True)),
+            ('apepat', self.gf('django.db.models.fields.CharField')(max_length=45, blank=True)),
+            ('apemat', self.gf('django.db.models.fields.CharField')(max_length=45, blank=True)),
             ('fecha_nacimiento', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
             ('descripcion', self.gf('django.db.models.fields.TextField')()),
             ('institucion', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['auth.User'])),
-            ('fecha_ingreso', self.gf('django.db.models.fields.DateField')(null=True, blank=True)),
-            ('estado', self.gf('django.db.models.fields.CharField')(max_length=1, blank=True)),
-            ('tipo', self.gf('django.db.models.fields.CharField')(max_length=12, blank=True)),
-            ('CURP', self.gf('django.db.models.fields.CharField')(max_length=12, blank=True)),
+            ('fecha_ingreso', self.gf('django.db.models.fields.DateField')(auto_now_add=True, blank=True)),
+            ('tipo', self.gf('django.db.models.fields.CharField')(max_length=12)),
+            ('CURP', self.gf('django.db.models.fields.CharField')(max_length=18, unique=True, null=True, blank=True)),
         ))
         db.send_create_signal(u'deudores', ['Deudor'])
 
@@ -68,18 +67,17 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
         },
         u'deudores.deudor': {
-            'CURP': ('django.db.models.fields.CharField', [], {'max_length': '12', 'blank': 'True'}),
+            'CURP': ('django.db.models.fields.CharField', [], {'max_length': '18', 'unique': 'True', 'null': 'True', 'blank': 'True'}),
             'Meta': {'object_name': 'Deudor'},
-            'apemat': ('django.db.models.fields.CharField', [], {'max_length': '45'}),
-            'apepat': ('django.db.models.fields.CharField', [], {'max_length': '45'}),
+            'apemat': ('django.db.models.fields.CharField', [], {'max_length': '45', 'blank': 'True'}),
+            'apepat': ('django.db.models.fields.CharField', [], {'max_length': '45', 'blank': 'True'}),
             'descripcion': ('django.db.models.fields.TextField', [], {}),
-            'estado': ('django.db.models.fields.CharField', [], {'max_length': '1', 'blank': 'True'}),
-            'fecha_ingreso': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
+            'fecha_ingreso': ('django.db.models.fields.DateField', [], {'auto_now_add': 'True', 'blank': 'True'}),
             'fecha_nacimiento': ('django.db.models.fields.DateField', [], {'null': 'True', 'blank': 'True'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'institucion': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['auth.User']"}),
-            'nombre': ('django.db.models.fields.CharField', [], {'max_length': '45'}),
-            'tipo': ('django.db.models.fields.CharField', [], {'max_length': '12', 'blank': 'True'})
+            'nombre': ('django.db.models.fields.CharField', [], {'max_length': '45', 'blank': 'True'}),
+            'tipo': ('django.db.models.fields.CharField', [], {'max_length': '12'})
         }
     }
 
