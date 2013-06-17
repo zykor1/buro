@@ -1,18 +1,64 @@
-	{% extends 'base/base.html' %}
-	{% block contenido %} 
-	<a href="/instituto"> Mis alumnos y profesores</a><br>
-	<a href="/nuevo"> Agregar alumno o profesores</a><br>
-	<a href="/buscador"> Buscador de alumnos y profesores</a><br>
-<p>{{ mensaje }}</p>
+{% extends 'base/base.html' %}
+{% block contenido %} 
 
-{% for deudor in deudores %}
-<p>
-	{{ deudor.nombre }}
-	{{ deudor.apepat }}
-	{{ deudor.apemat }}
-	{{ deudor.curp }}
-	{{ deudor.institucion.first_name }}
-	{{ deudor.fecha_nacimiento }}
-</p>
-{% endfor %}
+<section id="Como-funciona">
+    <section id="services-buscador-desktop" class="visible-desktop">
+        <br>
+        <h1 class="header" id="titulo">{{ user.username }} - Buscador</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>
+    <section id="services-buscador-mobile" class="hidden-desktop">
+        <br>
+        <h1 class="header" id="titulo">{{ user.username }} - Buscador</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>  
+
+
+		<ul class="nav nav-tabs">
+		  <li >
+		    <a href="/buscador/curp">Buscar por curp</a>
+		  </li>
+		  <li><a href="/buscador/generales">Buscar por sus datos generales</a></li>
+		</ul>
+
+     <div class="row"  id="full">
+        <div class="container">
+		{% if mensaje %}
+			<p class="alert alert-info">{{ mensaje }}</p>
+		{% endif %}
+			<table class="table table-hover table-condensed">
+		  		<thead>
+		    		<tr>
+			      		<th>Alumno o profesor</th>
+			      		<th>CURP</th>
+			      		<th>Nombre</th>
+			      		<th>Apellido paterno</th>
+			      		<th>Apellido materno</th>
+			      		<th>Fecha de nacimiento</th>
+			      		<th>Institucion</th>
+			      		<th>Descripcion</th>	    	      							      						
+		    		</tr>
+		  		</thead>
+	  			<tbody>
+	  				{% for deudor in deudores %}
+					    <tr>
+					     	<td>{{ deudor.get_tipo_display }}</td>
+					      	<td>{{ deudor.CURP }}</td>
+					      	<td>{{ deudor.nombre }}</td>
+					      	<td>{{ deudor.apepat }}</td>
+					      	<td>{{ deudor.apemat }}</td>
+					      	<td>{{ deudor.fecha_nacimiento|date:"SHORT_DATE_FORMAT" }}</td> 
+					      	<td>{{ deudor.institucion.first_name }}</td>
+					      	<td>{{ deudor.descripcion }}</td>
+					      	{% if deudor.institucion.id  == user.id %}
+						      	<td><a class="btn btn-small" href="/editar/{{ deudor.id }}"> editar</a></td>
+						      	<td><a class="btn btn-small" href="/eliminar/{{ deudor.id }}"> eliminar</a></td>
+						    {% endif %}
+					    </tr>
+				    {% endfor %}
+				</tbody>
+			</table>	
+        </div>
+    </div>               
+</section>
 {% endblock %}

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 *-*
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from forms import DeudorForm, BuscarCurpForm, BuscarNombreForm
@@ -24,11 +24,19 @@ def nuevoDeudor(request):
         if formulario.is_valid():
             aux = formulario.save(commit=False)
             aux.institucion = request.user
+            tipo0 = formulario.cleaned_data['tipo']
+            tipo1 = tipo0
+            tipo1 = dict(formulario.fields['tipo'].choices)[tipo1]
             aux.save()
-            return HttpResponseRedirect('/instituto')
+            respuesta = '<body onload="redireccionar()"><h1> %s agregado correctamente</h1>\
+                        <script language="Javascript">\
+                        function redireccionar() {\
+                        setTimeout("location.href=%s", 1000);}\
+                        </script> </body>' % (tipo1, '/nuevo/')
+            return HttpResponse(respuesta)
     else:
-    	formulario = DeudorForm()
-    return render_to_response('deudores/nuevo.html', {'formulario':formulario}, context_instance=RequestContext(request))
+        formulario = DeudorForm()
+    return render_to_response('deudores/nuevo.html', {'formulario':formulario, 'nuevo':'true'}, context_instance=RequestContext(request))
 
 
 def editarDeudor(request, id_deudor):
@@ -41,7 +49,7 @@ def editarDeudor(request, id_deudor):
     else:
         formulario = DeudorForm(instance=deudor)
     return render_to_response('deudores/nuevo.html', \
-        {'formulario':formulario }, context_instance=RequestContext(request))
+        {'formulario':formulario, 'nuevo':'false' }, context_instance=RequestContext(request))
 
 
 def eliminarDeudor(request, id_deudor):
@@ -51,10 +59,6 @@ def eliminarDeudor(request, id_deudor):
 
 
 
-def buscadorIndex(request):
-    return render_to_response('buscador/index.html', \
-                    context_instance=RequestContext(request))
-
 def buscarDeudorCurp(request):
     if request.method == 'POST':
         formulario = BuscarCurpForm(request.POST)
@@ -63,16 +67,16 @@ def buscarDeudorCurp(request):
             deudor = Deudor.objects.filter(CURP=CURP)
             if deudor.count() > 0 :
                 return render_to_response('buscador/resultados.html', \
-                    {'deudores':deudor }, context_instance=RequestContext(request))
+                    {'deudores':deudor}, context_instance=RequestContext(request))
             else:
                 mensaje = 'No se encontro ningun profesor o alumno con el CURP: %s' % CURP
                 return render_to_response('buscador/resultados.html', \
-                    {'mensaje':mensaje }, context_instance=RequestContext(request))
+                    {'mensaje':mensaje}, context_instance=RequestContext(request))
 
     else:
         formulario = BuscarCurpForm()
     return render_to_response('buscador/buscadorCurp.html', \
-        {'formulario':formulario }, context_instance=RequestContext(request))
+        {'formulario':formulario}, context_instance=RequestContext(request))
 
 
 def buscarDeudorNombre(request):
@@ -99,7 +103,7 @@ def buscarDeudorNombre(request):
             else:
                 mensaje = 'No se encontro al %s con nombre %s %s %s. Verifica tus datos e intentalo de nuevo.' % (tipo1, nombre1, apepat1, apemat1)
                 return render_to_response('buscador/resultados.html', \
-                    {'mensaje':mensaje }, context_instance=RequestContext(request))
+                    {'mensaje':mensaje}, context_instance=RequestContext(request))
 
     else:
         formulario = BuscarNombreForm()

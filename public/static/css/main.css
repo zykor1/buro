@@ -60,6 +60,33 @@
 
 }
 
+#services-login-desktop{
+	background: #fff url(../img/contactoCover.jpg) fixed no-repeat center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom:  4em;
+}
+
+#services-login-mobile {
+	background: #fff url(../img/contactoCover.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
+
+#services-buscador-desktop{
+	background: #fff url(../img/buscador.jpg) fixed no-repeat center;
+	background-size: cover;
+	padding-top: 4em;
+	padding-bottom:  4em;
+}
+
+#services-buscador-mobile {
+	background: #fff url(../img/buscador.jpg) no-repeat center;
+	background-size: cover;
+
+}
+
 
 
 h1#titulo{
@@ -100,9 +127,22 @@ img#fundacion{
 }
 
 
+ul.errorlist{
+	padding: 8px 35px 8px 14px;
+	margin: 0px 0px 0px 25px;
+  	margin-left: 0px;
+  	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  	background-color: #fcf8e3;
+  	border: 1px solid #fbeed5;
+  	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  	list-style:none;
+}
 
-
-
+#line-vertical{
+	border-right: solid #CCCCCC;
+}
 
 
 

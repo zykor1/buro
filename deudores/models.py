@@ -17,7 +17,7 @@ class Deudor (models.Model):
 	institucion = models.ForeignKey(User)
 	fecha_ingreso = models.DateField(auto_now_add=True, verbose_name=_('Fecha de ingreso'))
 	tipo = models.CharField(max_length=12, choices=TIPO, verbose_name=_(u'Alumno o profesor') )
-	CURP = models.CharField(max_length=18, unique=True, blank=True, verbose_name=_(u'CURP') )
+	CURP = models.CharField(max_length=18, unique=True, null=True, blank=True, verbose_name=_(u'CURP') )
 
 	def __unicode__(self):
 		return '%s' %(self.nombre)

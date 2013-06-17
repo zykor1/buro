@@ -19,7 +19,10 @@ class DeudorForm(ModelForm):
 	    return self.cleaned_data['apemat'].upper()
 
         def clean_CURP(self):
-            return self.cleaned_data['CURP'].upper()
+        	bar = self.cleaned_data['CURP'].upper()
+        	if bar == '':
+        		bar = None
+        	return bar
 
 class BuscarCurpForm(forms.Form):
 	CURP = forms.CharField(max_length=18, label=_(u"CURP"))

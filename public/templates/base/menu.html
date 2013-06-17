@@ -7,12 +7,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Buro de Solvencia Moral</a>
+                    <a class="brand" href="/">Buro de Solvencia Moral</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                         {% if user.is_authenticated %}
                             <li><a href="/instituto">Mis alumnos y profesores</a></li>
-                            <li><a href="/buscador">Buscador de alumnos y profesores</a></li>
+                            <li><a href="/buscador/curp">Buscador de alumnos y profesores</a></li>
                             <li><a href="/logout">{{ user.username }} (Cerrar sesión)</a></li>
                         </ul>
 						{% else %}

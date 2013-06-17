@@ -1,0 +1,1322 @@
+[0616/195112:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195122:INFO:CONSOLE(1)] "Calling: wall.update with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195122:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195129:INFO:CONSOLE(1)] "Calling: wall.update with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195129:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195141:INFO:CONSOLE(1)] "Calling: note.move with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195142:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195142:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195156:INFO:CONSOLE(1)] "Calling: note.get with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195201:INFO:CONSOLE(1)] "Calling: note.get with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195212:INFO:CONSOLE(1)] "Calling: note.get with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195222:INFO:CONSOLE(1)] "Calling: note.move with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195224:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195232:INFO:CONSOLE(1)] "Calling: aggregate.get_walls with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195236:INFO:CONSOLE(1)] "Calling: wall.get_pagedata with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195236:INFO:CONSOLE(1)] "Calling: wall.get_wall with arguments:", source: https://www.symphonical.com/site_media/static/3.0.5/js/compressed_base.js (1)
+[0616/195237:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195237:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195346:INFO:CONSOLE(122)] "Current master: ", source: https://www.symphonical.com/hangout/hangout_app/?parent=https%3A%2F%2F4hrpof01k507ato9jr0aq4enjnqpgct4-a-hangout-opensocial.googleusercontent.com%2Fgadgets%2Fifr%3Furl%3Dapp%253A%2F%2F936792847042%2Fhangout%26container%3Dhangout%26view%3Ddefault%26lang%3Dall%26country%3DALL%26debug%3D0%26nocache%3D0%26sanitize%3D0%26v%3Df4a2472bf47548f8%26testmode%3D0%26parent%3Dhttps%253A%2F%2Fplus.google.com%26mid%3D0%26authuser%3D0%26eid%3D%26hl%3Des%23st%3De%253DABul2V0TDMLiuTV6Lxe%25252BLLz7DXfDDXbdhlhOXlBfxeX234CRY19HgJu3wWtEHzLTdlKhLvKtwToyv6niqJWuj7TEt4rhFvREkmFkm%25252F8kfpVhnGIVaXxVmAKGkg10mk7YznThA2W37Vni%2526c%253Dhangout%26view-params%3D%257B%2522applicationUrl%2522%253A%2522https%253A%2F%2Fwww.symphonical.com%2Fhangout%2Fhangout.xml%2522%257D&token=ya29.AHES6ZSD8Y1duC5PGrTF07_vXLrVRUHYsbYeoAuJdcOooF9TTprwYA&gd=undefined (122)
+[0616/195346:INFO:CONSOLE(4436)] "Socket.io event "message" response:", source: https://www.symphonical.com/site_media/static/3.0.5/js/core.js (4436)
+[0616/195456:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195456:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195456:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195456:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195456:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195456:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195838:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195838:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195838:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195838:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195838:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195838:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195839:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195839:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195839:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195839:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195839:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195839:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195840:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195840:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195840:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195840:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195941:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0616/195944:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195944:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195944:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195944:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195944:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195944:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195944:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195944:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195945:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195945:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195945:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195945:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195945:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195945:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195945:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195945:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195945:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195945:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195946:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195946:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195946:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195946:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195946:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195946:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195946:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195946:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195946:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195946:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195947:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195947:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195947:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195947:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195948:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195948:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195948:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195948:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195949:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195949:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195949:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195949:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195949:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195949:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195950:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195950:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195950:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195950:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195950:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195950:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195950:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195950:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195951:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195951:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195951:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195951:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195951:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195951:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195951:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195951:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195952:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195952:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195952:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195952:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195952:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195952:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195952:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195952:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195952:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195952:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195953:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195953:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195953:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195953:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/195953:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/195953:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200100:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200100:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200101:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200101:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200101:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200101:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200101:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200101:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200101:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200101:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200102:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200102:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200103:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200103:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200104:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200104:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200105:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200105:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200105:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200105:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200106:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200106:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200106:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200106:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200107:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200107:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200108:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200108:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200108:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200108:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200109:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200109:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200110:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200110:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200111:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200111:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200112:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200112:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200112:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200112:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200112:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200112:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200112:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200112:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200112:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200112:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200247:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200247:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200248:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200248:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200249:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200249:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200250:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200250:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200251:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200251:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200321:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200321:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200322:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200322:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200323:INFO:CONSOLE(29)] "Port: Could not establish connection. Receiving end does not exist.", source: lastError (29)
+[0616/200323:INFO:CONSOLE(346)] "Error in event handler for 'undefined': Cannot read property 'farewell' of undefined TypeError: Cannot read property 'farewell' of undefined
+    at chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/js/hk.js:4:28
+    at <error: illegal access>
+    at Event.dispatchToListener (event_bindings:356:21)
+    at Event.dispatch_ (event_bindings:342:27)
+    at Event.dispatch (event_bindings:362:17)
+    at Object.chromeHidden.Port.dispatchOnDisconnect (miscellaneous_bindings:258:27)", source: event_bindings (346)
+[0616/200418:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200418:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200418:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200418:INFO:CONSOLE(42)] "Opera has modified script or content on www.google.com.mx (PATCH-1141, google.com - hide voice input icon while it is unsupported). See browser.js for details", source:  (42)
+[0616/200418:INFO:CONSOLE(42)] "Opera has modified script or content on www.google.com.mx (0, Google). See browser.js for details", source:  (42)
+[0616/200420:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200420:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200420:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200444:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200444:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200445:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200602:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200602:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200603:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200605:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200605:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200605:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200609:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200609:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200609:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200609:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/200609:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201515:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201515:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201515:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201517:INFO:CONSOLE(57)] "Uncaught SyntaxError: Unexpected token (", source: http://www.neoteo.com/js/NT_SendVideo.js (57)
+[0616/201517:INFO:CONSOLE(971)] "Uncaught ReferenceError: pageTracker is not defined", source: http://www.neoteo.com/ (971)
+[0616/201838:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201838:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201838:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201838:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0616/201919:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201919:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/201919:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/202035:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/202035:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up
+[0616/202036:INFO:browser_window_win.cc(546)] Should hide icon indicating blocked pop-up

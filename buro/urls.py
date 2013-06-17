@@ -16,7 +16,6 @@ urlpatterns = patterns('',
 	url(r'^nuevo/$', 'deudores.views.nuevoDeudor'),
 	url(r'^editar/(?P<id_deudor>\d+)$', 'deudores.views.editarDeudor'), 
 	url(r'^eliminar/(?P<id_deudor>\d+)$', 'deudores.views.eliminarDeudor'), 
-	url(r'^buscador/$', 'deudores.views.buscadorIndex'), 
 	url(r'^buscador/curp/$', 'deudores.views.buscarDeudorCurp'), 
 	url(r'^buscador/generales/$', 'deudores.views.buscarDeudorNombre'),
 )

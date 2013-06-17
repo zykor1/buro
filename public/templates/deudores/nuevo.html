@@ -1,56 +1,260 @@
-{% extends 'base/base.html' %}
-{% block contenido %} 
-<div class="row-fluid">
-<div class="span9">
-<h2 class="text-info">Agregar nuevo alumno o profesor</h2>
+{% if nuevo == 'false' %}
 
-<form id='formulario' method="post">{% csrf_token %}
-    {{ formulario.non_field_errors }}
-    <div class="fieldWrapper">
-        {{ formulario.CURP.errors }}
-        <label for="id_CURP">Curp:</label>
-        {{ formulario.CURP }}
-    </div>
+   <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width">
+            <title>Agregar alumno o profesor</title>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap.min.css'>
+            <style>
+                body {
+                    padding-bottom: 40px;
+                }
+            </style>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap-responsive.min.css'>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/main.css'>
 
-    <div class="fieldWrapper">
-        {{ formulario.tipo.errors }}
-        <label for="id_tipo">Alumno o profesor:</label>
-        {{ formulario.tipo }}
-    </div>
-    <div class="fieldWrapper">
-        {{ formulario.nombre.errors }}
-        <label for="id_nombre">Nombre:</label>
-        {{ formulario.nombre }}
-    </div>
-    <div class="fieldWrapper">
-        {{ formulario.apepat.errors }}
-        <label for="id_apepat">Apellido paterno:</label>
-        {{ formulario.apepat }}
-    </div>
-    <div class="fieldWrapper">
-        {{ formulario.apemat.errors }}
-        <label for="id_apemat">Apellido materno:</label>
-        {{ formulario.apemat }}
-    </div>
-    <div class="fieldWrapper">
-        {{ formulario.fecha_nacimiento.errors }}
-        <label for="id_fecha_nacimiento">Fecha de nacimiento:</label>
-        {{ formulario.fecha_nacimiento }}
-    </div>
+            <script src='{{STATIC_URL}}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+        </head>
+        <body>
+            {% include "base/menu.html" %}
 
-    <div class="fieldWrapper">
-        {{ formulario.descripcion.errors }}
-        <label for="id_descripcion">Descripcion:</label>
-        {{ formulario.descripcion }}
-    </div>
+    <section id="services-f-desktop" class="visible-desktop">
+        <br>
+        <h1 class="header" id="titulo">{{ user.username }}</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>
+    <section id="services-f-mobile" class="hidden-desktop">
+        <br>
+        <h1 class="header" id="titulo">Como funciona</h1>
+        <p class="header" id="subtitulo">Buro de Solvencia Moral.</p>
+    </section>  
 
 
-    <p><input type="submit" value="Send message" /></p>
-</form>
 
-</div>
-</div>
+            
+               <div id="mensaje">
+                    <div class="alert alert-info">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor.
+                    </div>
+                </div>
+            <form  id='formulario' method="post">{% csrf_token %}
+            {{ formulario.non_field_errors }}
+            <div class=row>   
+                <div class="span4">
+                    <div class="fieldWrapper">
+                       {{ formulario.tipo.errors }}
+                           <label for="id_tipo">Alumno o profesor*:</label>
+                        {{ formulario.tipo }}
+                    </div>
+                </div>
+            </div>
 
-{% endblock %}
+            <div class=row>   
+                <div class="span4" id="line-vertical">
+                    <div class="fieldWrapper">
+                        {{ formulario.CURP.errors }}
+                                <label for="id_CURP">Curp:</label>
+                        {{ formulario.CURP }}
+                    </div>
+                </div>
+                <div class="span4" id="line-vertical">
+                    <h4>Datos generales</h4>
+                    <div class="fieldWrapper">
+                        {{ formulario.nombre.errors }}
+                            <label for="id_nombre">Nombre:</label>
+                        {{ formulario.nombre }}
+                    </div>
+
+                    <div class="fieldWrapper">
+                        {{ formulario.apepat.errors }}
+                            <label for="id_apepat">Apellido paterno:</label>
+                        {{ formulario.apepat }}
+                    </div>
+
+                    <div class="fieldWrapper">
+                        {{ formulario.apemat.errors }}
+                            <label for="id_apemat">Apellido materno:</label>
+                        {{ formulario.apemat }}
+                    </div>
+
+                     <div class="fieldWrapper">
+                        {{ formulario.fecha_nacimiento.errors }}
+                            <label for="id_fecha_nacimiento">Fecha de nacimiento:</label>
+                        {{ formulario.fecha_nacimiento }}
+                    </div>
+                </div>
+
+                <div class="span4">
+                    <div class="fieldWrapper">
+                        {{ formulario.descripcion.errors }}
+                            <label for="id_descripcion">Descripcion*:</label>
+                        {{ formulario.descripcion }}
+                    </div>
+                    <p><input id="btn" class="btn" type="submit" value="Agregar" /></p>
+                
+                </div>
+            </div>
+                                </form>
 
 
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="{{STATIC_URL}}js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+            <script type="text/javascript">
+               $(document).ready(function(){
+                $("#formulario").submit(function() {
+                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
+                {
+                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
+                    return false;
+                }
+                else  return true;
+               
+                                });
+                    });
+
+            </script>
+
+            <script src='{{STATIC_URL}}js/vendor/bootstrap.min.js'></script>
+
+            <script src='{{STATIC_URL}}js/main.js'></script>
+
+            <script>
+                var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+            </script>
+        </body>
+    </html>
+
+{% else %}
+
+
+    <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width">
+            <title>Agregar alumno o profesor</title>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap.min.css'>
+            <style>
+                body {
+                    padding-bottom: 40px;
+                }
+            </style>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap-responsive.min.css'>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/main.css'>
+
+            <script src='{{STATIC_URL}}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+        </head>
+        <body>
+               <div id="mensaje">
+                    <div class="alert alert-info">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor.
+                    </div>
+                </div>
+            <form  id='formulario' method="post">{% csrf_token %}
+            {{ formulario.non_field_errors }}
+            <div class=row>   
+                <div class="span4">
+                    <div class="fieldWrapper">
+                       {{ formulario.tipo.errors }}
+                           <label for="id_tipo">Alumno o profesor*:</label>
+                        {{ formulario.tipo }}
+                    </div>
+                </div>
+            </div>
+
+            <div class=row>   
+                <div class="span4" id="line-vertical">
+                    <div class="fieldWrapper">
+                        {{ formulario.CURP.errors }}
+                                <label for="id_CURP">Curp:</label>
+                        {{ formulario.CURP }}
+                    </div>
+                </div>
+                <div class="span4" id="line-vertical">
+                    <h4>Datos generales</h4>
+                    <div class="fieldWrapper">
+                        {{ formulario.nombre.errors }}
+                            <label for="id_nombre">Nombre:</label>
+                        {{ formulario.nombre }}
+                    </div>
+
+                    <div class="fieldWrapper">
+                        {{ formulario.apepat.errors }}
+                            <label for="id_apepat">Apellido paterno:</label>
+                        {{ formulario.apepat }}
+                    </div>
+
+                    <div class="fieldWrapper">
+                        {{ formulario.apemat.errors }}
+                            <label for="id_apemat">Apellido materno:</label>
+                        {{ formulario.apemat }}
+                    </div>
+
+                     <div class="fieldWrapper">
+                        {{ formulario.fecha_nacimiento.errors }}
+                            <label for="id_fecha_nacimiento">Fecha de nacimiento:</label>
+                        {{ formulario.fecha_nacimiento }}
+                    </div>
+                </div>
+
+                <div class="span4">
+                    <div class="fieldWrapper">
+                        {{ formulario.descripcion.errors }}
+                            <label for="id_descripcion">Descripcion*:</label>
+                        {{ formulario.descripcion }}
+                    </div>
+                    <p><input id="btn" class="btn" type="submit" value="Agregar" /></p>
+                
+                </div>
+            </div>
+                                </form>
+
+
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="{{STATIC_URL}}js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+            <script type="text/javascript">
+               $(document).ready(function(){
+                $("#formulario").submit(function() {
+                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
+                {
+                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
+                    return false;
+                }
+                else  return true;
+               
+                                });
+                    });
+
+            </script>
+
+            <script src='{{STATIC_URL}}js/vendor/bootstrap.min.js'></script>
+
+            <script src='{{STATIC_URL}}js/main.js'></script>
+
+            <script>
+                var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+            </script>
+        </body>
+    </html>
+
+{% endif %}
