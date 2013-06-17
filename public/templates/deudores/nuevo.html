@@ -12,6 +12,7 @@
             <meta name="viewport" content="width=device-width">
             <title>Agregar alumno o profesor</title>
             <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap.min.css'>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/datepicker.css'>
             <style>
                 body {
                     padding-bottom: 40px;
@@ -84,7 +85,6 @@
                             <label for="id_apemat">Apellido materno:</label>
                         {{ formulario.apemat }}
                     </div>
-
                      <div class="fieldWrapper">
                         {{ formulario.fecha_nacimiento.errors }}
                             <label for="id_fecha_nacimiento">Fecha de nacimiento:</label>
@@ -103,6 +103,7 @@
                 </div>
             </div>
                                 </form>
+
 
 
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -132,6 +133,25 @@
                 g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
                 s.parentNode.insertBefore(g,s)}(document,'script'));
             </script>
+
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/bootstrap-datepicker.js'>
+            </script>
+
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/locales/bootstrap-datepicker.es.js'>
+            </script>
+
+            <script type="text/javascript">
+                $('#id_fecha_nacimiento').datepicker({
+                    format:"dd/mm/yyyy",
+                    language: 'es'
+                });
+                
+            </script>
+
+
+
         </body>
     </html>
 
@@ -150,6 +170,7 @@
             <meta name="viewport" content="width=device-width">
             <title>Agregar alumno o profesor</title>
             <link rel="stylesheet" href='{{STATIC_URL}}css/bootstrap.min.css'>
+            <link rel="stylesheet" href='{{STATIC_URL}}css/datepicker.css'>
             <style>
                 body {
                     padding-bottom: 40px;
@@ -254,6 +275,26 @@
                 g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
                 s.parentNode.insertBefore(g,s)}(document,'script'));
             </script>
+
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/bootstrap-datepicker.js'>
+            </script>
+
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/locales/bootstrap-datepicker.es.js'>
+            </script>
+
+            <script type="text/javascript">
+                $('#id_fecha_nacimiento').datepicker({
+                    format:"dd/mm/yyyy",
+                    language: 'es',
+                    autoclose: true
+                });
+                
+            </script>
+
+
+
         </body>
     </html>
 

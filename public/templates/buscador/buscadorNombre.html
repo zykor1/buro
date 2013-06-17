@@ -1,4 +1,9 @@
 {% extends 'base/base.html' %}
+{% block head %} 
+    <link rel="stylesheet" href='{{STATIC_URL}}css/datepicker.css'>
+{%endblock%}
+
+
 {% block contenido %} 
 
 <section id="Como-funciona">
@@ -82,5 +87,22 @@
         </div>
     </div>               
 </section>
+{% endblock %}
+{% block scripts %} 
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/bootstrap-datepicker.js'>
+            </script>
 
+            <script type="text/javascript"
+                src='{{STATIC_URL}}js/vendor/locales/bootstrap-datepicker.es.js'>
+            </script>
+
+            <script type="text/javascript">
+                $('#id_fecha_nacimiento').datepicker({
+                    format:"dd/mm/yyyy",
+                    language: 'es',
+                    autoclose: true
+                });
+                
+            </script>
 {% endblock %}
