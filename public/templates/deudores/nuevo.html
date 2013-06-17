@@ -108,21 +108,6 @@
 
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="{{STATIC_URL}}js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-            <script type="text/javascript">
-               $(document).ready(function(){
-                $("#formulario").submit(function() {
-                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
-                {
-                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
-                    return false;
-                }
-                else  return true;
-               
-                                });
-                    });
-
-            </script>
-
             <script src='{{STATIC_URL}}js/vendor/bootstrap.min.js'></script>
 
             <script src='{{STATIC_URL}}js/main.js'></script>
@@ -148,6 +133,21 @@
                     language: 'es'
                 });
                 
+            </script>
+
+            <script type="text/javascript">
+               $(document).ready(function(){
+                $("#formulario").submit(function() {
+                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
+                {
+                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
+                    return false;
+                }
+                else  return true;
+               
+                                });
+                    });
+
             </script>
 
 
@@ -250,21 +250,6 @@
 
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="{{STATIC_URL}}js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-            <script type="text/javascript">
-               $(document).ready(function(){
-                $("#formulario").submit(function() {
-                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
-                {
-                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
-                    return false;
-                }
-                else  return true;
-               
-                                });
-                    });
-
-            </script>
-
             <script src='{{STATIC_URL}}js/vendor/bootstrap.min.js'></script>
 
             <script src='{{STATIC_URL}}js/main.js'></script>
@@ -291,6 +276,20 @@
                     autoclose: true
                 });
                 
+            </script>
+            <script type="text/javascript">
+               $(document).ready(function(){
+                $("#formulario").submit(function() {
+                if ($('#id_CURP').val() == '' && ($('#id_nombre').val() == '' || $('#id_apepat').val() == '' || $('#id_apemat').val() == '' || $('#id_fecha_nacimiento').val() == '')) 
+                {
+                    $('#mensaje').html('<div class="alert alert-error"> <button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Informacion. </strong> Ingrese el Curp ó <b>todos</b> los datos generales del alumno o profesor. </div>')
+                    return false;
+                }
+                else  return true;
+               
+                                });
+                    });
+
             </script>
 
 
