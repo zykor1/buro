@@ -1,4 +1,7 @@
 {% extends 'base/base.html' %}
+{% block tittle %} Administrador{%  endblock %}
+
+
 {% block contenido %} 
 <section id="Como-funciona">
     <section id="services-f-desktop" class="visible-desktop">
@@ -46,8 +49,8 @@
 								      	<td>{{ deudor.fecha_nacimiento|date:"SHORT_DATE_FORMAT" }}</td> 
 								      	<td>{{ deudor.institucion.first_name }}</td>
 								      	<td>{{ deudor.descripcion }}</td>
-								      	<td><a class="btn btn-small" href="/editar/{{ deudor.id }}"> editar</a></td>
-								      	<td><a class="btn btn-small" href="/eliminar/{{ deudor.id }}"> eliminar</a></td>
+								      	<td><a  class="btn btn-small" href="/editar/{{ deudor.id }}"> editar</a></td>
+								      	<td><a id="btn_eliminar" class="btn btn-small" href="/eliminar/{{ deudor.id }}"> eliminar</a></td>
 								    </tr>
 							    {% endfor %}
 						  	</tbody>
@@ -62,6 +65,24 @@
     </div>               
 </section>
 
+
 {% endblock %}
+
+{% block scripts %} 
+
+            <script>
+            $(document).ready(function(){
+				$("a#btn_eliminar").click( function(e) {
+					e.preventDefault();
+					var url = this.href;
+					if(confirm("¿En verdad deseas eliminar este campo?")) {
+						location.href = url;
+					}
+				});
+			});
+
+            </script>
+
+{%endblock%}
 
 

@@ -17,7 +17,7 @@ from forms import SignupForm
 
 
 def nuevoUserView(request):
-	if request.user.is_authenticated():
+	if request.user.is_authenticated() and not request.user.is_staff:
 		return redirect('/')
 	else:
 		if request.method == 'POST':

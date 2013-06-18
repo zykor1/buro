@@ -11,6 +11,9 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                         {% if user.is_authenticated %}
+                            {% if user.is_staff %}
+                                <li><a href="/registro">Registrar nuevo instituto</a></li>
+                            {% endif %}
                             <li><a href="/instituto">Mis alumnos y profesores</a></li>
                             <li><a href="/buscador/curp">Buscador de alumnos y profesores</a></li>
                             <li><a href="/logout">{{ user.username }} (Cerrar sesión)</a></li>
