@@ -99,7 +99,7 @@
 
 
 h1#titulo{
-	font-family: "NewMedia-black", Georgia, serif;
+	font-family: "NewMedia", Georgia, serif;
 	font-size: 90px;
 	color: #fff;
 	font-weight: 700;
@@ -111,7 +111,7 @@ h1#titulo{
 }
 
 p#subtitulo{
-	font-family: "NewMedia-black", Georgia, serif;
+	font-family: "NewMedia.black", Georgia, serif;
 	font-size: 26px;
 	color: #fff;
 	font-weight: 100;
