@@ -5,6 +5,15 @@
    ========================================================================== */
 
 
+@font-face {
+    font-family: "NewMedia";
+    src: url(../fonts/NewMedia.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "NewMedia-black";
+    src: url(../fonts/NewMediaFett.ttf) format("truetype");
+}
 
 
 #services-top-desktop{
@@ -90,6 +99,7 @@
 
 
 h1#titulo{
+	font-family: "NewMedia-black", Georgia, serif;
 	font-size: 90px;
 	color: #fff;
 	font-weight: 700;
@@ -101,6 +111,7 @@ h1#titulo{
 }
 
 p#subtitulo{
+	font-family: "NewMedia-black", Georgia, serif;
 	font-size: 26px;
 	color: #fff;
 	font-weight: 100;
@@ -146,7 +157,10 @@ ul.errorlist{
 
 
 
-
+p, blockquote{
+	font-family: "NewMedia-black", Georgia, serif;
+	font-size: 18px;
+}
 
 
 
